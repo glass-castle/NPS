@@ -84,7 +84,7 @@ df_analysis_nps = df_analysis[df_analysis['Max Score'] != 2]
 st.markdown('**Initial Data Analysis by Survey**')
 st.dataframe(df_analysis, use_container_width=True, hide_index=True)
 
-st.markdown("""This highlighted some problem surveys, were the max score was 2, not 10. These look like CSAT surveys (which the name does imply) so these were 
+st.markdown("""This highlighted some problem surveys, where the max score was 2, not 10. These look like CSAT surveys (which the name does imply) so these were 
             separated from the NPS""")
 
 st.markdown('**NPS Analysis by Survey**')
@@ -333,5 +333,6 @@ df_year_combined['NPS Score'] = (
 df_year_combined['NPS Score'] = df_year_combined['NPS Score'].round().astype(int)
 
 # Display result
-st.markdown("**Combined NPS by Year (HubSpot + Google Form)")
+st.markdown("**Combined NPS by Year (HubSpot + Google Form)**")
+
 st.dataframe(df_year_combined, use_container_width=True, hide_index=True)
