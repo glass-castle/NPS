@@ -2,8 +2,8 @@ altair>=5.0.0
 matplotlib>=3.9.0
 matplotlib-inline>=0.1.7
 numpy>=1.26.0
-pandas>=2.1.0
-plotly>=6.0.0
+pandas>=2.2.0
+plotly>=5.18.0
 scipy>=1.11.0
-streamlit==1.44.1
-streamlit-aggrid==1.1.4.post1
+streamlit
+streamlit-aggrid
