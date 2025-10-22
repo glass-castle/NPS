@@ -6,6 +6,8 @@ from st_aggrid import GridOptionsBuilder, AgGrid, ColumnsAutoSizeMode
 st.set_page_config(layout='wide')
 st.sidebar.success('Select a page above.')
 
+st.sidebar.divider()
+
 st.header("Recommendations & Next Steps")
 
 st.markdown("""
@@ -40,5 +42,6 @@ st.markdown("""
     out reach so detractors feel heard. This can help with future surveys.
    - **Recognition.** Encourage teams to act on NPS insights by linking improvements to performance metrics or recognition programs.
 """)
+
 
 
