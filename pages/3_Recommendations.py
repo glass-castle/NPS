@@ -13,7 +13,7 @@ st.markdown("""
     surveys. This could include looking at new systems, or just adjusting old, archiving off all unused surveys, 
     and ensuring automations are upto date using the agreed new structure.
    - **Centralize NPS data.** Once data coming in is agreed upon and organised, old data can be looked at to 
-    try to centralise all responses. This will likely include using ETL to unify data in the DataLake, ensuring there
+    try to centralise all responses. This will likely include using ETL (Extract, Transform, Load) to unify data in the DataLake, ensuring there
     are correct foreign keys so tables can be joined for indepth future reporting.""")
 st.markdown("""
 **2. Visibility: Reporting & Dashboards:**
@@ -37,3 +37,4 @@ st.markdown("""
     out reach so detractors feel heard. This can help with future surveys.
    - **Recognition.** Encourage teams to act on NPS insights by linking improvements to performance metrics or recognition programs.
 """)
+
