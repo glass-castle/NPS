@@ -229,5 +229,5 @@ else:
                 a role, which is going to influence how people feel about the training they received. The score is consistently
                 above 30.""")
     st.markdown("""After 2023 it does start to trend back up from it's low point of 34, but overall the NPS in this paints a much
-
                 different picture to the Hubspot, and in isolation does artificially inflate the NPS.""")
+
